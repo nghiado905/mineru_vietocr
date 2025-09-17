@@ -1,0 +1,82 @@
+[
+    {
+        "type": "text",
+        "text": "Chỉ nhánh bán hàng: chỉ nhánh hai Xãi Nhân viên bản hàng: nguyễn Hanh Phương Khách hàng: Khách lẻ ",
+        "bbox": [
+            104,
+            370,
+            521,
+            439
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Số điện thoại: ",
+        "bbox": [
+            771,
+            419,
+            904,
+            438
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Địa chỉ ",
+        "bbox": [
+            104,
+            458,
+            176,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/a132426f0f0eb8ed07787f28619b289ddd84879666e217c9124e94c4cbb7dc06.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>sites</td><td rowspan=1 colspan=1>Mã Hàng</td><td rowspan=1 colspan=1>STT Mã Hàng Tên hàng hóa, dịch</td><td rowspan=1 colspan=1>Sốlương</td><td rowspan=1 colspan=1>Dơngiá</td><td rowspan=1 colspan=1>Chiếtkhẩu</td><td rowspan=1 colspan=1>Thànhtiền</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>3050412</td><td rowspan=1 colspan=1>Vây nữ Alcado</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>223,962</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>671,886</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>P0000015</td><td rowspan=1 colspan=1>Quần jeans nữ BlueExchange</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2.10,323</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>420,646</td></tr></table>",
+        "bbox": [
+            100,
+            494,
+            907,
+            618
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ghi chú ",
+        "bbox": [
+            97,
+            634,
+            174,
+            652
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tổng số lượng: 5   \nTổng tiền hàng: 1,192,532   \nChiết khẩu hóa đơn: 100,000   \nTổng cộng: 1,092,532 ",
+        "bbox": [
+            628,
+            665,
+            910,
+            792
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Người bán hàng ",
+        "bbox": [
+            626,
+            807,
+            781,
+            826
+        ],
+        "page_idx": 0
+    }
+]

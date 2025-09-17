@@ -12,6 +12,10 @@ from mineru.data.data_reader_writer import FileBasedDataWriter
 from mineru.utils.draw_bbox import draw_layout_bbox, draw_span_bbox, draw_line_sort_bbox
 from mineru.utils.enum_class import MakeMode
 from mineru.utils.pdf_image_tools import images_bytes_to_pdf_bytes
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 pdf_suffixes = [".pdf"]
 image_suffixes = [".png", ".jpeg", ".jpg", ".webp", ".gif"]
@@ -87,7 +91,7 @@ def _process_output(
         model_output=None,
         is_pipeline=True
 ):
-    f_draw_line_sort_bbox = False
+    f_draw_line_sort_bbox = True
     from mineru.backend.pipeline.pipeline_middle_json_mkcontent import union_make as pipeline_union_make
 
     if f_draw_layout_bbox:
@@ -238,12 +242,10 @@ def do_parse(
 
 
 if __name__ == "__main__":
-    pdf_path = "C:/Users/zhaoxiaomeng/Downloads/4546d0e2-ba60-40a5-a17e-b68555cec741.pdf"
+    pdf_path = r"D:\LabAI\OCR\MinerUN\MinerU\pdfs\g.pdf"
 
     try:
-       do_parse("./output", [Path(pdf_path).stem], [read_fn(Path(pdf_path))], ["ch"],
-                end_page_id=10,
-                backend='pipeline'
-                )
+       do_parse("./output", [Path(pdf_path).stem], [read_fn(Path(pdf_path))], ["ch"],backend='pipeline'
+)
     except Exception as e:
         logger.exception(e)

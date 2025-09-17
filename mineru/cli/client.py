@@ -49,54 +49,52 @@ from .common import do_parse, read_fn, pdf_suffixes, image_suffixes
     '-b',
     '--backend',
     'backend',
-    type=click.Choice(['pipeline', 'vlm-transformers', 'vlm-sglang-engine', 'vlm-sglang-client']),
+    type=click.Choice(['pipeline']),
     help="""the backend for parsing pdf:
     pipeline: More general.
-    vlm-transformers: More general.
-    vlm-sglang-engine: Faster(engine).
-    vlm-sglang-client: Faster(client).
     without method specified, pipeline will be used by default.""",
     default='pipeline',
 )
-@click.option(
-    '-l',
-    '--lang',
-    'lang',
-    type=click.Choice(['ch', 'ch_server', 'ch_lite', 'en', 'korean', 'japan', 'chinese_cht', 'ta', 'te', 'ka', 'th', 'el',
-                       'latin', 'arabic', 'east_slavic', 'cyrillic', 'devanagari']),
-    help="""
-    Input the languages in the pdf (if known) to improve OCR accuracy.  Optional.
-    Without languages specified, 'ch' will be used by default.
-    Adapted only for the case where the backend is set to "pipeline".
-    """,
-    default='ch',
-)
-@click.option(
-    '-u',
-    '--url',
-    'server_url',
-    type=str,
-    help="""
-    When the backend is `sglang-client`, you need to specify the server_url, for example:`http://127.0.0.1:30000`
-    """,
-    default=None,
-)
-@click.option(
-    '-s',
-    '--start',
-    'start_page_id',
-    type=int,
-    help='The starting page for PDF parsing, beginning from 0.',
-    default=0,
-)
-@click.option(
-    '-e',
-    '--end',
-    'end_page_id',
-    type=int,
-    help='The ending page for PDF parsing, beginning from 0.',
-    default=None,
-)
+
+# @click.option(
+#     '-l',
+#     '--lang',
+#     'lang',
+#     type=click.Choice(['ch', 'ch_server', 'ch_lite', 'en', 'korean', 'japan', 'chinese_cht', 'ta', 'te', 'ka', 'th', 'el',
+#                        'latin', 'arabic', 'east_slavic', 'cyrillic', 'devanagari']),
+#     help="""
+#     Input the languages in the pdf (if known) to improve OCR accuracy.  Optional.
+#     Without languages specified, 'ch' will be used by default.
+#     Adapted only for the case where the backend is set to "pipeline".
+#     """,
+#     default='ch',
+# )
+# @click.option(
+#     '-u',
+#     '--url',
+#     'server_url',
+#     type=str,
+#     help="""
+#     When the backend is `sglang-client`, you need to specify the server_url, for example:`http://127.0.0.1:30000`
+#     """,
+#     default=None,
+# )
+# @click.option(
+#     '-s',
+#     '--start',
+#     'start_page_id',
+#     type=int,
+#     help='The starting page for PDF parsing, beginning from 0.',
+#     default=0,
+# )
+# @click.option(
+#     '-e',
+#     '--end',
+#     'end_page_id',
+#     type=int,
+#     help='The ending page for PDF parsing, beginning from 0.',
+#     default=None,
+# )
 @click.option(
     '-f',
     '--formula',
@@ -113,6 +111,7 @@ from .common import do_parse, read_fn, pdf_suffixes, image_suffixes
     help='Enable table parsing. Default is True. Adapted only for the case where the backend is set to "pipeline".',
     default=True,
 )
+
 @click.option(
     '-d',
     '--device',
@@ -121,22 +120,24 @@ from .common import do_parse, read_fn, pdf_suffixes, image_suffixes
     help='Device mode for model inference, e.g., "cpu", "cuda", "cuda:0", "npu", "npu:0", "mps". Adapted only for the case where the backend is set to "pipeline". ',
     default=None,
 )
-@click.option(
-    '--vram',
-    'virtual_vram',
-    type=int,
-    help='Upper limit of GPU memory occupied by a single process. Adapted only for the case where the backend is set to "pipeline". ',
-    default=None,
-)
-@click.option(
-    '--source',
-    'model_source',
-    type=click.Choice(['huggingface', 'modelscope', 'local']),
-    help="""
-    The source of the model repository. Default is 'huggingface'.
-    """,
-    default='huggingface',
-)
+
+# @click.option(
+#     '--vram',
+#     'virtual_vram',
+#     type=int,
+#     help='Upper limit of GPU memory occupied by a single process. Adapted only for the case where the backend is set to "pipeline". ',
+#     default=None,
+# )
+
+# @click.option(
+#     '--source',
+#     'model_source',
+#     type=click.Choice(['huggingface', 'modelscope', 'local']),
+#     help="""
+#     The source of the model repository. Default is 'huggingface'.
+#     """,
+#     default='huggingface',
+# )
 
 
 def main(

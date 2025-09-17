@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dots OCR - Tải và Xử lý PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Nền tối giản dark mode */
+            color: #ffffff; /* Chữ trắng */
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 phần: trái (input + PDF), phải (loading + output) */
+            height: 100vh;
+            gap: 20px;
+        }
+        .left, .right {
+            padding: 20px;
+            background-color: #1e1e1e; /* Nền tối giản */
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .left {
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.1); /* Bóng nhẹ tối giản */
+        }
+        .right {
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+            overflow-y: auto; /* Cuộn nếu nội dung dài */
+            justify-content: center;
+        }
+        #chooseFileBtn {
+            background: linear-gradient(to right, #6B46C1, #D53F8C); /* Gradient tím */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+            transition: background 0.5s, transform 0.3s; /* Chuyển màu và zoom */
+        }
+        #chooseFileBtn:hover {
+            background: linear-gradient(to right, #D53F8C, #6B46C1);
+            transform: scale(1.05); /* Zoom nhẹ */
+        }
+        #fileInput {
+            display: none; /* Ẩn input gốc */
+        }
+        #submitBtn {
+            background: linear-gradient(to right, #6B46C1, #D53F8C); /* Gradient tím */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background 0.5s; /* Chuyển màu nhẹ nhàng */
+        }
+        #submitBtn:hover {
+            background: linear-gradient(to right, #D53F8C, #6B46C1);
+        }
+        #pdfViewer {
+            width: 90%; /* Giảm độ rộng để căn giữa */
+            height: 500px;
+            border: 1px solid #444; /* Viền tối giản */
+            border-radius: 4px;
+            margin-top: 20px;
+            display: none; /* Ẩn cho đến khi có file */
+        }
+        #loading {
+            display: none;
+            border: 10px solid #333; /* Spinner nhỏ hơn */
+            border-top: 10px solid #9B51E0; /* Màu tím */
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1.5s linear infinite; /* Xoay nhẹ nhàng */
+            margin: 20px auto; /* Căn giữa */
+        }
+        .processing-text {
+            color: #aaa; /* Văn bản tối giản */
+            font-style: italic;
+            text-align: center;
+        }
+        .output-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .output-buttons button {
+            background-color: #333; /* Nền tối giản */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s; /* Chuyển màu nhẹ */
+        }
+        .output-buttons button:hover {
+            background-color: #444;
+        }
+        .content {
+            background-color: #222; /* Nội dung tối giản */
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+            width: 100%;
+            margin-top: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <h2>Input PDF</h2>
+        <button id="chooseFileBtn" onclick="document.getElementById('fileInput').click()">Chọn File</button>
+        <input type="file" id="fileInput" accept=".pdf,.png,.jpeg,.jpg,.webp,.gif" onchange="previewPDF()">
+        <button id="submitBtn" onclick="processPDF()">Bắt đầu Xử lý</button>
+        <iframe id="pdfViewer" src=""></iframe>
+    </div>
+    <div class="right">
+        <div id="loading"></div>
+        <p id="processingText" class="processing-text" style="display: none;">Đang xử lý...</p>
+        <div class="output-buttons" id="outputButtons" style="display: none;">
+            <button onclick="showOutput('markdown')">Markdown</button>
+            <button onclick="showOutput('content_list')">Content List</button>
+            <button onclick="showOutput('middle_json')">Middle JSON</button>
+            <button onclick="showOutput('model_output')">Model Output</button>
+            <button onclick="showOutput('pdf_links')">PDF Links</button>
+        </div>
+        <div id="outputContent" class="content" style="display: none;"></div>
+    </div>
+
+    <script>
+        let outputData = {};
+        let selectedFile = null;
+
+        function previewPDF() {
+            const fileInput = document.getElementById('fileInput');
+            const pdfViewer = document.getElementById('pdfViewer');
+            selectedFile = fileInput.files[0];
+
+            if (selectedFile && selectedFile.type === 'application/pdf') {
+                const url = URL.createObjectURL(selectedFile);
+                pdfViewer.src = url;
+                pdfViewer.style.display = 'block';
+                fileInput.style.display = 'none'; // Ẩn input sau khi chọn
+                document.getElementById('chooseFileBtn').style.display = 'none'; // Ẩn nút chọn file
+            } else {
+                pdfViewer.style.display = 'none';
+            }
+        }
+
+        async function processPDF() {
+            if (!selectedFile) {
+                alert('Vui lòng chọn một file PDF!');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            const loading = document.getElementById('loading');
+            const processingText = document.getElementById('processingText');
+            const outputButtons = document.getElementById('outputButtons');
+            const outputContent = document.getElementById('outputContent');
+
+            loading.style.display = 'block';
+            processingText.style.display = 'block';
+            outputButtons.style.display = 'none';
+            outputContent.style.display = 'none';
+            outputContent.innerHTML = '';
+
+            try {
+                const response = await fetch('/process_pdf/', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error('Lỗi khi xử lý file');
+                }
+
+                const data = await response.json();
+                loading.style.display = 'none';
+                processingText.style.display = 'none';
+
+                if (data.status === 'success') {
+                    outputData = data.files[Object.keys(data.files)[0]]; // Lưu dữ liệu
+                    outputButtons.style.display = 'block';
+                    showOutput('markdown'); // Hiển thị mặc định
+                } else {
+                    outputContent.innerHTML = '<p style="color: red;">Xử lý thất bại: ' + data.message + '</p>';
+                    outputContent.style.display = 'block';
+                }
+            } catch (error) {
+                loading.style.display = 'none';
+                processingText.style.display = 'none';
+                outputContent.innerHTML = '<p style="color: red;">Lỗi: ' + error.message + '</p>';
+                outputContent.style.display = 'block';
+            }
+        }
+
+        function showOutput(type) {
+            const outputContent = document.getElementById('outputContent');
+            const downloadBase = '/download/'; // Từ API
+
+            outputContent.style.display = 'block';
+            outputContent.innerHTML = '';
+
+            if (type === 'pdf_links') {
+                const pdfTypes = ['layout_pdf', 'span_pdf', 'line_sort_pdf', 'original_pdf'];
+                pdfTypes.forEach(pdfType => {
+                    if (outputData[pdfType]) {
+                        const link = document.createElement('a');
+                        link.href = downloadBase + outputData[pdfType];
+                        link.textContent = `Tải ${pdfType.replace('_', ' ').toUpperCase()}`;
+                        link.target = '_blank';
+                        link.style.display = 'block';
+                        outputContent.appendChild(link);
+                    }
+                });
+            } else {
+                const pre = document.createElement('pre');
+                pre.textContent = outputData[type] || 'No content available';
+                outputContent.appendChild(pre);
+            }
+        }
+    </script>
+</body>
+</html>

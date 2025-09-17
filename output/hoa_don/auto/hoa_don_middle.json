@@ -1,0 +1,919 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        62,
+                        312,
+                        310,
+                        370
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                310,
+                                311,
+                                330
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        310,
+                                        311,
+                                        330
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chỉ nhánh bán hàng: chỉ nhánh hai",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                330,
+                                288,
+                                351
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        330,
+                                        288,
+                                        351
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xãi Nhân viên bản hàng: nguyễn Hanh Phương",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                352,
+                                183,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        352,
+                                        183,
+                                        370
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Khách hàng: Khách lẻ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        459,
+                        353,
+                        538,
+                        369
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                457,
+                                352,
+                                540,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        457,
+                                        352,
+                                        540,
+                                        370
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Số điện thoại:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        62,
+                        386,
+                        105,
+                        402
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                60,
+                                383,
+                                108,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        383,
+                                        108,
+                                        405
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Địa chỉ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        60,
+                        416,
+                        540,
+                        521
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                60,
+                                416,
+                                540,
+                                521
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        416,
+                                        540,
+                                        521
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                60,
+                                                416,
+                                                540,
+                                                521
+                                            ],
+                                            "score": 0.983,
+                                            "html": "<table><tr><td rowspan=1 colspan=1>sites</td><td rowspan=1 colspan=1>Mã Hàng</td><td rowspan=1 colspan=1>STT Mã Hàng Tên hàng hóa, dịch</td><td rowspan=1 colspan=1>Sốlương</td><td rowspan=1 colspan=1>Dơngiá</td><td rowspan=1 colspan=1>Chiếtkhẩu</td><td rowspan=1 colspan=1>Thànhtiền</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>3050412</td><td rowspan=1 colspan=1>Vây nữ Alcado</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>223,962</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>671,886</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>P0000015</td><td rowspan=1 colspan=1>Quần jeans nữ BlueExchange</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2.10,323</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>420,646</td></tr></table>",
+                                            "type": "table",
+                                            "image_path": "a132426f0f0eb8ed07787f28619b289ddd84879666e217c9124e94c4cbb7dc06.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        416,
+                                        540,
+                                        451.0
+                                    ],
+                                    "spans": [],
+                                    "index": 5
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        451.0,
+                                        540,
+                                        486.0
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        486.0,
+                                        540,
+                                        521.0
+                                    ],
+                                    "spans": [],
+                                    "index": 7
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        534,
+                        104,
+                        549
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                530,
+                                107,
+                                552
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        530,
+                                        107,
+                                        552
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Ghi chú",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        374,
+                        560,
+                        542,
+                        667
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                446,
+                                559,
+                                543,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        446,
+                                        559,
+                                        543,
+                                        581
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng số lượng: 5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                396,
+                                586,
+                                543,
+                                609
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        396,
+                                        586,
+                                        543,
+                                        609
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng tiền hàng: 1,192,532",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                381,
+                                615,
+                                543,
+                                636
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        381,
+                                        615,
+                                        543,
+                                        636
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chiết khẩu hóa đơn: 100,000",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                421,
+                                645,
+                                543,
+                                667
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        421,
+                                        645,
+                                        543,
+                                        667
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng cộng: 1,092,532",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        }
+                    ],
+                    "index": 10.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        373,
+                        680,
+                        465,
+                        696
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                371,
+                                677,
+                                467,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        371,
+                                        677,
+                                        467,
+                                        699
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Người bán hàng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                842
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        134,
+                        680,
+                        225,
+                        696
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                132,
+                                676,
+                                227,
+                                700
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        132,
+                                        676,
+                                        227,
+                                        700
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Người đặt hãng",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        227,
+                        171,
+                        373,
+                        262
+                    ],
+                    "lines": []
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        250,
+                        280,
+                        349,
+                        294
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                279,
+                                351,
+                                296
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        279,
+                                        351,
+                                        296
+                                    ],
+                                    "score": 0.9,
+                                    "content": "08/05/2014 03:56",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        62,
+                        312,
+                        310,
+                        370
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                310,
+                                311,
+                                330
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        310,
+                                        311,
+                                        330
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chỉ nhánh bán hàng: chỉ nhánh hai",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                330,
+                                288,
+                                351
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        330,
+                                        288,
+                                        351
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xãi Nhân viên bản hàng: nguyễn Hanh Phương",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                352,
+                                183,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        352,
+                                        183,
+                                        370
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Khách hàng: Khách lẻ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1,
+                    "bbox_fs": [
+                        61,
+                        310,
+                        311,
+                        370
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        459,
+                        353,
+                        538,
+                        369
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                457,
+                                352,
+                                540,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        457,
+                                        352,
+                                        540,
+                                        370
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Số điện thoại:",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "bbox_fs": [
+                        457,
+                        352,
+                        540,
+                        370
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        62,
+                        386,
+                        105,
+                        402
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                60,
+                                383,
+                                108,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        383,
+                                        108,
+                                        405
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Địa chỉ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4,
+                    "bbox_fs": [
+                        60,
+                        383,
+                        108,
+                        405
+                    ]
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        60,
+                        416,
+                        540,
+                        521
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                60,
+                                416,
+                                540,
+                                521
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        416,
+                                        540,
+                                        521
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                60,
+                                                416,
+                                                540,
+                                                521
+                                            ],
+                                            "score": 0.983,
+                                            "html": "<table><tr><td rowspan=1 colspan=1>sites</td><td rowspan=1 colspan=1>Mã Hàng</td><td rowspan=1 colspan=1>STT Mã Hàng Tên hàng hóa, dịch</td><td rowspan=1 colspan=1>Sốlương</td><td rowspan=1 colspan=1>Dơngiá</td><td rowspan=1 colspan=1>Chiếtkhẩu</td><td rowspan=1 colspan=1>Thànhtiền</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>3050412</td><td rowspan=1 colspan=1>Vây nữ Alcado</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>223,962</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>671,886</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>P0000015</td><td rowspan=1 colspan=1>Quần jeans nữ BlueExchange</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2.10,323</td><td rowspan=1 colspan=1>o</td><td rowspan=1 colspan=1>420,646</td></tr></table>",
+                                            "type": "table",
+                                            "image_path": "a132426f0f0eb8ed07787f28619b289ddd84879666e217c9124e94c4cbb7dc06.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        416,
+                                        540,
+                                        451.0
+                                    ],
+                                    "spans": [],
+                                    "index": 5
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        451.0,
+                                        540,
+                                        486.0
+                                    ],
+                                    "spans": [],
+                                    "index": 6
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        486.0,
+                                        540,
+                                        521.0
+                                    ],
+                                    "spans": [],
+                                    "index": 7
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        58,
+                        534,
+                        104,
+                        549
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                530,
+                                107,
+                                552
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        530,
+                                        107,
+                                        552
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Ghi chú",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        }
+                    ],
+                    "index": 8,
+                    "bbox_fs": [
+                        56,
+                        530,
+                        107,
+                        552
+                    ]
+                },
+                {
+                    "type": "index",
+                    "bbox": [
+                        374,
+                        560,
+                        542,
+                        667
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                446,
+                                559,
+                                543,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        446,
+                                        559,
+                                        543,
+                                        581
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng số lượng: 5",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                396,
+                                586,
+                                543,
+                                609
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        396,
+                                        586,
+                                        543,
+                                        609
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng tiền hàng: 1,192,532",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                381,
+                                615,
+                                543,
+                                636
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        381,
+                                        615,
+                                        543,
+                                        636
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chiết khẩu hóa đơn: 100,000",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                421,
+                                645,
+                                543,
+                                667
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        421,
+                                        645,
+                                        543,
+                                        667
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tổng cộng: 1,092,532",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12,
+                            "is_list_start_line": true
+                        }
+                    ],
+                    "index": 10.5,
+                    "bbox_fs": [
+                        381,
+                        559,
+                        543,
+                        667
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        373,
+                        680,
+                        465,
+                        696
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                371,
+                                677,
+                                467,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        371,
+                                        677,
+                                        467,
+                                        699
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Người bán hàng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 13,
+                    "bbox_fs": [
+                        371,
+                        677,
+                        467,
+                        699
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.2.2"
+}

@@ -1,0 +1,4248 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        317,
+                        99,
+                        500,
+                        114
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                315,
+                                98,
+                                501,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        315,
+                                        98,
+                                        501,
+                                        115
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hà Nội, ngày 13 tháng 9 năm 2019",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        268,
+                        133,
+                        355,
+                        151
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                266,
+                                132,
+                                357,
+                                153
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        266,
+                                        132,
+                                        357,
+                                        153
+                                    ],
+                                    "score": 0.9,
+                                    "content": "THÔNG BÁO",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        148,
+                        159,
+                        474,
+                        193
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                147,
+                                158,
+                                475,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        158,
+                                        475,
+                                        178
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Kết luận của Phó Thủ tướng Chính",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                165,
+                                176,
+                                458,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        165,
+                                        176,
+                                        458,
+                                        195
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tại cuộc họp về dự thảo Luật Xây",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 2.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        240,
+                        540,
+                        409
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                240,
+                                539,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        240,
+                                        539,
+                                        258
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Ngày 12 tháng 9 năm 2025, tại T",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                255,
+                                540,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        255,
+                                        540,
+                                        276
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Trần Hồng Hà chu trì cuộc họp về",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                274,
+                                539,
+                                292
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        274,
+                                        539,
+                                        292
+                                    ],
+                                    "score": 0.9,
+                                    "content": "cuộc họp có bộ trương bộ xây",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                291,
+                                539,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        291,
+                                        539,
+                                        309
+                                    ],
+                                    "score": 0.9,
+                                    "content": "bộ, cơ quan: Xây dựng, Tư pháp",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                308,
+                                540,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        308,
+                                        540,
+                                        326
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Nông nghiệp và môi trường, Kho",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                324,
+                                538,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        324,
+                                        538,
+                                        343
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chính phủ, Văn phòng Chính p",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                341,
+                                539,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        341,
+                                        539,
+                                        359
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hải Phòng, Liên đoàn Thương mã",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                358,
+                                539,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        358,
+                                        539,
+                                        377
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xây dựng việt nam, hiệp hội",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                374,
+                                540,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        374,
+                                        540,
+                                        396
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xây dựng báo cáo, ý kiến phát biểu của có",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                393,
+                                328,
+                                410
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        393,
+                                        328,
+                                        410
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chính phu Trần Hồng Hà két l",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 8.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        414,
+                        539,
+                        482
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                414,
+                                539,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        414,
+                                        539,
+                                        434
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Dánh giá cao tinh thần trách nhiện",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                431,
+                                539,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        431,
+                                        539,
+                                        451
+                                    ],
+                                    "score": 0.9,
+                                    "content": "phối hợp với các bộ, cơ quan và các",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                449,
+                                539,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        449,
+                                        539,
+                                        467
+                                    ],
+                                    "score": 0.9,
+                                    "content": "(thay thế); đánh giá cao các bộ,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                466,
+                                374,
+                                484
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        466,
+                                        374,
+                                        484
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Luật và có ý kiến phát biểu cụ tl",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 15.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        488,
+                        539,
+                        573
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                487,
+                                539,
+                                506
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        487,
+                                        539,
+                                        506
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Luật Xây dựng có phạm vi diều ch",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                504,
+                                540,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        504,
+                                        540,
+                                        525
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ngành, dia phương, do dó, để tiếp tục",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                522,
+                                538,
+                                540
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        522,
+                                        538,
+                                        540
+                                    ],
+                                    "score": 0.9,
+                                    "content": "trước khi trinh Chinh phủ, Quốc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                539,
+                                539,
+                                558
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        539,
+                                        539,
+                                        558
+                                    ],
+                                    "score": 0.9,
+                                    "content": "phát biểu của các đại biểu tại cuốc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                556,
+                                508,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        556,
+                                        508,
+                                        574
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tiếp tục rà soát để hoàn thiện dự",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        579,
+                        539,
+                        687
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                112,
+                                577,
+                                539,
+                                600
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        112,
+                                        577,
+                                        539,
+                                        600
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Rà soát, thế chếc hóa đây đủ các chủ trung",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                597,
+                                540,
+                                617
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        597,
+                                        540,
+                                        617
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dựng pháp luật, bảo đám phù hợp về",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                616,
+                                539,
+                                635
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        616,
+                                        539,
+                                        635
+                                    ],
+                                    "score": 0.9,
+                                    "content": "cấp. Tập trung giải quyết, khắc p",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                633,
+                                539,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        633,
+                                        539,
+                                        653
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tác đầu tư xây dựng trong thời gian",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                651,
+                                539,
+                                670
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        651,
+                                        539,
+                                        670
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thuận lợi, thông thoáng, minh bạch",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                668,
+                                456,
+                                691
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        668,
+                                        456,
+                                        691
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dơn gián hóa thu tục hành chính trong h",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 25.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        693,
+                        539,
+                        764
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                692,
+                                540,
+                                712
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        692,
+                                        540,
+                                        712
+                                    ],
+                                    "score": 0.9,
+                                    "content": "2. Rà soát kỹ dự thảo Luật bảo đám",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                712,
+                                539,
+                                730
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        712,
+                                        539,
+                                        730
+                                    ],
+                                    "score": 0.9,
+                                    "content": "luật Trường hợp phát hiện chồng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                730,
+                                538,
+                                747
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        730,
+                                        538,
+                                        747
+                                    ],
+                                    "score": 0.9,
+                                    "content": "với quy định tại Luật này có thể",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                744,
+                                462,
+                                768
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        744,
+                                        462,
+                                        768
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chia tổng mức đầu tư của dụ án thành phố",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        }
+                    ],
+                    "index": 30.5
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        100,
+                        776,
+                        220,
+                        811
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                784,
+                                187,
+                                803
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        784,
+                                        187,
+                                        803
+                                    ],
+                                    "score": 0.9,
+                                    "content": "LuatVietnam",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                101,
+                                802,
+                                186,
+                                811
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        802,
+                                        186,
+                                        811
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tiện ích văn bản luật",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        123,
+                        96,
+                        228,
+                        112
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                120,
+                                93,
+                                231,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        93,
+                                        231,
+                                        114
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Số: 480/TB-VPCP",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        96,
+                        56,
+                        254,
+                        73
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                95,
+                                54,
+                                256,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        95,
+                                        54,
+                                        256,
+                                        74
+                                    ],
+                                    "score": 0.9,
+                                    "content": "VĂN PHÒNG CHÍNH PHỦ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        272,
+                        55,
+                        544,
+                        90
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                271,
+                                55,
+                                546,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        271,
+                                        55,
+                                        546,
+                                        74
+                                    ],
+                                    "score": 0.9,
+                                    "content": "CỘNG HOÀ XÃ HỘI CHỦ NGHỊ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                320,
+                                72,
+                                496,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        320,
+                                        72,
+                                        496,
+                                        91
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Độc lập - Tự do - Hạnh phúc",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        317,
+                        99,
+                        500,
+                        114
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                315,
+                                98,
+                                501,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        315,
+                                        98,
+                                        501,
+                                        115
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hà Nội, ngày 13 tháng 9 năm 2019",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0,
+                    "bbox_fs": [
+                        315,
+                        98,
+                        501,
+                        115
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        268,
+                        133,
+                        355,
+                        151
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                266,
+                                132,
+                                357,
+                                153
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        266,
+                                        132,
+                                        357,
+                                        153
+                                    ],
+                                    "score": 0.9,
+                                    "content": "THÔNG BÁO",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        148,
+                        159,
+                        474,
+                        193
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                147,
+                                158,
+                                475,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        158,
+                                        475,
+                                        178
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Kết luận của Phó Thủ tướng Chính",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                165,
+                                176,
+                                458,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        165,
+                                        176,
+                                        458,
+                                        195
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tại cuộc họp về dự thảo Luật Xây",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 2.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        240,
+                        540,
+                        409
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                240,
+                                539,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        240,
+                                        539,
+                                        258
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Ngày 12 tháng 9 năm 2025, tại T",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                255,
+                                540,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        255,
+                                        540,
+                                        276
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Trần Hồng Hà chu trì cuộc họp về",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                274,
+                                539,
+                                292
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        274,
+                                        539,
+                                        292
+                                    ],
+                                    "score": 0.9,
+                                    "content": "cuộc họp có bộ trương bộ xây",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                291,
+                                539,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        291,
+                                        539,
+                                        309
+                                    ],
+                                    "score": 0.9,
+                                    "content": "bộ, cơ quan: Xây dựng, Tư pháp",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                308,
+                                540,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        308,
+                                        540,
+                                        326
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Nông nghiệp và môi trường, Kho",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                324,
+                                538,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        324,
+                                        538,
+                                        343
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chính phủ, Văn phòng Chính p",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                341,
+                                539,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        341,
+                                        539,
+                                        359
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hải Phòng, Liên đoàn Thương mã",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                358,
+                                539,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        358,
+                                        539,
+                                        377
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xây dựng việt nam, hiệp hội",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                374,
+                                540,
+                                396
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        374,
+                                        540,
+                                        396
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Xây dựng báo cáo, ý kiến phát biểu của có",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                393,
+                                328,
+                                410
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        393,
+                                        328,
+                                        410
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Chính phu Trần Hồng Hà két l",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        }
+                    ],
+                    "index": 8.5,
+                    "bbox_fs": [
+                        82,
+                        240,
+                        540,
+                        410
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        414,
+                        539,
+                        482
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                414,
+                                539,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        414,
+                                        539,
+                                        434
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Dánh giá cao tinh thần trách nhiện",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                431,
+                                539,
+                                451
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        431,
+                                        539,
+                                        451
+                                    ],
+                                    "score": 0.9,
+                                    "content": "phối hợp với các bộ, cơ quan và các",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                449,
+                                539,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        449,
+                                        539,
+                                        467
+                                    ],
+                                    "score": 0.9,
+                                    "content": "(thay thế); đánh giá cao các bộ,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                466,
+                                374,
+                                484
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        466,
+                                        374,
+                                        484
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Luật và có ý kiến phát biểu cụ tl",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "index": 15.5,
+                    "bbox_fs": [
+                        83,
+                        414,
+                        539,
+                        484
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        488,
+                        539,
+                        573
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                487,
+                                539,
+                                506
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        487,
+                                        539,
+                                        506
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Luật Xây dựng có phạm vi diều ch",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                504,
+                                540,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        504,
+                                        540,
+                                        525
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ngành, dia phương, do dó, để tiếp tục",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                522,
+                                538,
+                                540
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        522,
+                                        538,
+                                        540
+                                    ],
+                                    "score": 0.9,
+                                    "content": "trước khi trinh Chinh phủ, Quốc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                539,
+                                539,
+                                558
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        539,
+                                        539,
+                                        558
+                                    ],
+                                    "score": 0.9,
+                                    "content": "phát biểu của các đại biểu tại cuốc",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                556,
+                                508,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        556,
+                                        508,
+                                        574
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tiếp tục rà soát để hoàn thiện dự",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        }
+                    ],
+                    "index": 20,
+                    "bbox_fs": [
+                        82,
+                        487,
+                        540,
+                        574
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        579,
+                        539,
+                        687
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                112,
+                                577,
+                                539,
+                                600
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        112,
+                                        577,
+                                        539,
+                                        600
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Rà soát, thế chếc hóa đây đủ các chủ trung",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                597,
+                                540,
+                                617
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        597,
+                                        540,
+                                        617
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dựng pháp luật, bảo đám phù hợp về",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                616,
+                                539,
+                                635
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        616,
+                                        539,
+                                        635
+                                    ],
+                                    "score": 0.9,
+                                    "content": "cấp. Tập trung giải quyết, khắc p",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                633,
+                                539,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        633,
+                                        539,
+                                        653
+                                    ],
+                                    "score": 0.9,
+                                    "content": "tác đầu tư xây dựng trong thời gian",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                651,
+                                539,
+                                670
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        651,
+                                        539,
+                                        670
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thuận lợi, thông thoáng, minh bạch",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                668,
+                                456,
+                                691
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        668,
+                                        456,
+                                        691
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dơn gián hóa thu tục hành chính trong h",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 25.5,
+                    "bbox_fs": [
+                        82,
+                        577,
+                        540,
+                        691
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        693,
+                        539,
+                        764
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                692,
+                                540,
+                                712
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        692,
+                                        540,
+                                        712
+                                    ],
+                                    "score": 0.9,
+                                    "content": "2. Rà soát kỹ dự thảo Luật bảo đám",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                712,
+                                539,
+                                730
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        712,
+                                        539,
+                                        730
+                                    ],
+                                    "score": 0.9,
+                                    "content": "luật Trường hợp phát hiện chồng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                730,
+                                538,
+                                747
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        730,
+                                        538,
+                                        747
+                                    ],
+                                    "score": 0.9,
+                                    "content": "với quy định tại Luật này có thể",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                744,
+                                462,
+                                768
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        744,
+                                        462,
+                                        768
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chia tổng mức đầu tư của dụ án thành phố",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        }
+                    ],
+                    "index": 30.5,
+                    "bbox_fs": [
+                        83,
+                        692,
+                        540,
+                        768
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        67,
+                        539,
+                        135
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                65,
+                                539,
+                                85
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        65,
+                                        539,
+                                        85
+                                    ],
+                                    "score": 0.9,
+                                    "content": "3. Rà soát, chi quy định các chính",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                83,
+                                539,
+                                102
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        83,
+                                        539,
+                                        102
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Bộ trường quy định các nội dung",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                101,
+                                538,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        101,
+                                        538,
+                                        118
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng dụng công nghệ thông tin",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                117,
+                                511,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        117,
+                                        511,
+                                        136
+                                    ],
+                                    "score": 0.9,
+                                    "content": "điều kiện năng lực, quy hoạch, quy",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 1.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        140,
+                        539,
+                        241
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                140,
+                                539,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        140,
+                                        539,
+                                        158
+                                    ],
+                                    "score": 0.9,
+                                    "content": "4. Rà soát quy trình, trình tự, thù",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                156,
+                                538,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        156,
+                                        538,
+                                        176
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng yêu cầu quân lý, baoo đám các",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                173,
+                                538,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        173,
+                                        538,
+                                        192
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chữa cháy, môi trường, đất dai và",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                191,
+                                539,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        191,
+                                        539,
+                                        207
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng các điều kiện như: công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                206,
+                                540,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        207,
+                                        100,
+                                        223
+                                    ],
+                                    "score": 0.57,
+                                    "content": "\\mathbf { k } \\acute { \\hat { \\mathbf { e } } } .",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        100,
+                                        206,
+                                        540,
+                                        226
+                                    ],
+                                    "score": 0.9,
+                                    "content": "hình thức đăng ký xây dựng, công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                222,
+                                416,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        222,
+                                        416,
+                                        244
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ke mau theo quy hoạch, có thể thay học",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 6.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        245,
+                        539,
+                        348
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                244,
+                                540,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        244,
+                                        540,
+                                        266
+                                    ],
+                                    "score": 0.9,
+                                    "content": "5 - Rà soát các quy dịnh chi tiết về các c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                261,
+                                538,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        261,
+                                        538,
+                                        282
+                                    ],
+                                    "score": 0.9,
+                                    "content": "như: chủ đầu tư, các đơn vị tư vấn thiến",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                280,
+                                538,
+                                298
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        280,
+                                        538,
+                                        298
+                                    ],
+                                    "score": 0.9,
+                                    "content": "và cơ chế bảo vệ quyền các bên",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                297,
+                                540,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        297,
+                                        540,
+                                        316
+                                    ],
+                                    "score": 0.9,
+                                    "content": "quy định về tổ chức thực hiện dự",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                313,
+                                540,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        313,
+                                        540,
+                                        333
+                                    ],
+                                    "score": 0.9,
+                                    "content": "linh hoạt trong công tác lựa chọn",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                332,
+                                257,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        332,
+                                        257,
+                                        348
+                                    ],
+                                    "score": 0.9,
+                                    "content": "quản lý dự án, tư vấn thẩm tran t",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 12.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        352,
+                        539,
+                        421
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                350,
+                                540,
+                                374
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        350,
+                                        540,
+                                        374
+                                    ],
+                                    "score": 0.9,
+                                    "content": "6. Nghiên cứu bỏ sung cơ chế để khuyến",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                370,
+                                539,
+                                389
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        370,
+                                        539,
+                                        389
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dụng khoa học công nghệ dễ các có",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                387,
+                                538,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        387,
+                                        538,
+                                        405
+                                    ],
+                                    "score": 0.9,
+                                    "content": "sạch, chuyển dồi số, thong mi",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                405,
+                                343,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        405,
+                                        343,
+                                        423
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ngày 22 tháng 12 năm 2024 của",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "index": 17.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        428,
+                        538,
+                        496
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                426,
+                                539,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        426,
+                                        539,
+                                        446
+                                    ],
+                                    "score": 0.9,
+                                    "content": "7. Tờ trình, báo cáo cần phân định",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                445,
+                                538,
+                                464
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        445,
+                                        538,
+                                        464
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thảo Luật, như: (1) sửa đổi để phù",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                461,
+                                539,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        461,
+                                        539,
+                                        481
+                                    ],
+                                    "score": 0.9,
+                                    "content": "(11) sửa dôi để cát giám, dơn giản hóa",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                479,
+                                280,
+                                497
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        479,
+                                        280,
+                                        497
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chính sách; (iv) nội dung cát gia",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        }
+                    ],
+                    "index": 21.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        501,
+                        538,
+                        535
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                500,
+                                539,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        500,
+                                        539,
+                                        520
+                                    ],
+                                    "score": 0.9,
+                                    "content": "8. Ra soát kỹ các quy định chuyển tiên",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                518,
+                                317,
+                                537
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        518,
+                                        317,
+                                        537
+                                    ],
+                                    "score": 0.9,
+                                    "content": "vướng mắc khi Luật có hiệu lực",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        }
+                    ],
+                    "index": 24.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        542,
+                        538,
+                        577
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                541,
+                                538,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        541,
+                                        538,
+                                        562
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Văn phòng Chính phủ thông báo dề",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                560,
+                                153,
+                                579
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        560,
+                                        153,
+                                        579
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thực hiện./",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        }
+                    ],
+                    "index": 26.5
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        90,
+                        604,
+                        142,
+                        617
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                89,
+                                601,
+                                145,
+                                619
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        601,
+                                        145,
+                                        619
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Nơi nhận",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        90,
+                        617,
+                        318,
+                        757
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                614,
+                                281,
+                                632
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        614,
+                                        281,
+                                        632
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Thủ tướng, PTTg Trần Hồng Hà (để b/",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                629,
+                                253,
+                                644
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        629,
+                                        253,
+                                        644
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Các Bộ XD, TP, QP, CA, CT,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "bbox": [
+                                93,
+                                641,
+                                225,
+                                657
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        641,
+                                        225,
+                                        657
+                                    ],
+                                    "score": 0.9,
+                                    "content": "NEMT, KHẤCN, NV, NG,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                88,
+                                654,
+                                193,
+                                669
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        654,
+                                        193,
+                                        669
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Thanh tra chính phủ;",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                666,
+                                277,
+                                682
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        666,
+                                        277,
+                                        682
+                                    ],
+                                    "score": 0.9,
+                                    "content": "UBND các thành phố: hà nội, hải",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                679,
+                                321,
+                                694
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        679,
+                                        321,
+                                        694
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Liên đoàn tương mại và công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                692,
+                                291,
+                                707
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        692,
+                                        291,
+                                        707
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Hiệp hội các nhà thầu xây dựng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                704,
+                                273,
+                                720
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        704,
+                                        273,
+                                        720
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hiệp hội Tư vấn Xây dựng Việt",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                717,
+                                267,
+                                732
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        717,
+                                        267,
+                                        732
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- VPCP: BTCN, PCN Nguyễn Sỹ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "bbox": [
+                                94,
+                                730,
+                                248,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        730,
+                                        248,
+                                        744
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Các Vụ, Cục: TH, NN, PL, KSTT",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "bbox": [
+                                90,
+                                741,
+                                204,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        741,
+                                        204,
+                                        758
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Lư VT, CN (2b). Hop",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 39
+                        }
+                    ],
+                    "index": 34
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        322,
+                        601,
+                        514,
+                        719
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                322,
+                                601,
+                                514,
+                                719
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        601,
+                                        514,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                322,
+                                                601,
+                                                514,
+                                                719
+                                            ],
+                                            "score": 0.945,
+                                            "type": "image",
+                                            "image_path": "04c42b5a2abbdd41a5edec7b7c16375ab554cdb149087941be516f8bc086fa1b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 42.5,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        601,
+                                        514,
+                                        620.6666666666666
+                                    ],
+                                    "spans": [],
+                                    "index": 40
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        620.6666666666666,
+                                        514,
+                                        640.3333333333333
+                                    ],
+                                    "spans": [],
+                                    "index": 41
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        640.3333333333333,
+                                        514,
+                                        659.9999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 42
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        659.9999999999999,
+                                        514,
+                                        679.6666666666665
+                                    ],
+                                    "spans": [],
+                                    "index": 43
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        679.6666666666665,
+                                        514,
+                                        699.3333333333331
+                                    ],
+                                    "spans": [],
+                                    "index": 44
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        699.3333333333331,
+                                        514,
+                                        718.9999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42.5
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        100,
+                        776,
+                        220,
+                        811
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                100,
+                                783,
+                                187,
+                                803
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        100,
+                                        783,
+                                        187,
+                                        803
+                                    ],
+                                    "score": 0.9,
+                                    "content": "LuatVietnam",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                101,
+                                802,
+                                186,
+                                811
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        802,
+                                        186,
+                                        811
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Tiện ích văn bản luật",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        307,
+                        37,
+                        316,
+                        49
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                306,
+                                36,
+                                317,
+                                52
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        306,
+                                        36,
+                                        317,
+                                        52
+                                    ],
+                                    "score": 0.9,
+                                    "content": "2",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        67,
+                        539,
+                        135
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                65,
+                                539,
+                                85
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        65,
+                                        539,
+                                        85
+                                    ],
+                                    "score": 0.9,
+                                    "content": "3. Rà soát, chi quy định các chính",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                83,
+                                539,
+                                102
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        83,
+                                        539,
+                                        102
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Bộ trường quy định các nội dung",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                101,
+                                538,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        101,
+                                        538,
+                                        118
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng dụng công nghệ thông tin",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                117,
+                                511,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        117,
+                                        511,
+                                        136
+                                    ],
+                                    "score": 0.9,
+                                    "content": "điều kiện năng lực, quy hoạch, quy",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 1.5,
+                    "bbox_fs": [
+                        83,
+                        65,
+                        539,
+                        136
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        140,
+                        539,
+                        241
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                140,
+                                539,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        140,
+                                        539,
+                                        158
+                                    ],
+                                    "score": 0.9,
+                                    "content": "4. Rà soát quy trình, trình tự, thù",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                156,
+                                538,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        156,
+                                        538,
+                                        176
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng yêu cầu quân lý, baoo đám các",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                173,
+                                538,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        173,
+                                        538,
+                                        192
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chữa cháy, môi trường, đất dai và",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                191,
+                                539,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        191,
+                                        539,
+                                        207
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ứng các điều kiện như: công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                206,
+                                540,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        207,
+                                        100,
+                                        223
+                                    ],
+                                    "score": 0.57,
+                                    "content": "\\mathbf { k } \\acute { \\hat { \\mathbf { e } } } .",
+                                    "type": "inline_equation"
+                                },
+                                {
+                                    "bbox": [
+                                        100,
+                                        206,
+                                        540,
+                                        226
+                                    ],
+                                    "score": 0.9,
+                                    "content": "hình thức đăng ký xây dựng, công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                82,
+                                222,
+                                416,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        222,
+                                        416,
+                                        244
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ke mau theo quy hoạch, có thể thay học",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "index": 6.5,
+                    "bbox_fs": [
+                        82,
+                        140,
+                        540,
+                        244
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        245,
+                        539,
+                        348
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                244,
+                                540,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        244,
+                                        540,
+                                        266
+                                    ],
+                                    "score": 0.9,
+                                    "content": "5 - Rà soát các quy dịnh chi tiết về các c",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                261,
+                                538,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        261,
+                                        538,
+                                        282
+                                    ],
+                                    "score": 0.9,
+                                    "content": "như: chủ đầu tư, các đơn vị tư vấn thiến",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                280,
+                                538,
+                                298
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        280,
+                                        538,
+                                        298
+                                    ],
+                                    "score": 0.9,
+                                    "content": "và cơ chế bảo vệ quyền các bên",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                297,
+                                540,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        297,
+                                        540,
+                                        316
+                                    ],
+                                    "score": 0.9,
+                                    "content": "quy định về tổ chức thực hiện dự",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                313,
+                                540,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        313,
+                                        540,
+                                        333
+                                    ],
+                                    "score": 0.9,
+                                    "content": "linh hoạt trong công tác lựa chọn",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                332,
+                                257,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        332,
+                                        257,
+                                        348
+                                    ],
+                                    "score": 0.9,
+                                    "content": "quản lý dự án, tư vấn thẩm tran t",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 15
+                        }
+                    ],
+                    "index": 12.5,
+                    "bbox_fs": [
+                        83,
+                        244,
+                        540,
+                        348
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        352,
+                        539,
+                        421
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                350,
+                                540,
+                                374
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        350,
+                                        540,
+                                        374
+                                    ],
+                                    "score": 0.9,
+                                    "content": "6. Nghiên cứu bỏ sung cơ chế để khuyến",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                370,
+                                539,
+                                389
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        370,
+                                        539,
+                                        389
+                                    ],
+                                    "score": 0.9,
+                                    "content": "dụng khoa học công nghệ dễ các có",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                387,
+                                538,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        387,
+                                        538,
+                                        405
+                                    ],
+                                    "score": 0.9,
+                                    "content": "sạch, chuyển dồi số, thong mi",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                405,
+                                343,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        405,
+                                        343,
+                                        423
+                                    ],
+                                    "score": 0.9,
+                                    "content": "ngày 22 tháng 12 năm 2024 của",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "index": 17.5,
+                    "bbox_fs": [
+                        83,
+                        350,
+                        540,
+                        423
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        428,
+                        538,
+                        496
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                426,
+                                539,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        426,
+                                        539,
+                                        446
+                                    ],
+                                    "score": 0.9,
+                                    "content": "7. Tờ trình, báo cáo cần phân định",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                445,
+                                538,
+                                464
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        445,
+                                        538,
+                                        464
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thảo Luật, như: (1) sửa đổi để phù",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                461,
+                                539,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        461,
+                                        539,
+                                        481
+                                    ],
+                                    "score": 0.9,
+                                    "content": "(11) sửa dôi để cát giám, dơn giản hóa",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                479,
+                                280,
+                                497
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        479,
+                                        280,
+                                        497
+                                    ],
+                                    "score": 0.9,
+                                    "content": "chính sách; (iv) nội dung cát gia",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 23
+                        }
+                    ],
+                    "index": 21.5,
+                    "bbox_fs": [
+                        83,
+                        426,
+                        539,
+                        497
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        85,
+                        501,
+                        538,
+                        535
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                500,
+                                539,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        500,
+                                        539,
+                                        520
+                                    ],
+                                    "score": 0.9,
+                                    "content": "8. Ra soát kỹ các quy định chuyển tiên",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                84,
+                                518,
+                                317,
+                                537
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        518,
+                                        317,
+                                        537
+                                    ],
+                                    "score": 0.9,
+                                    "content": "vướng mắc khi Luật có hiệu lực",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 25
+                        }
+                    ],
+                    "index": 24.5,
+                    "bbox_fs": [
+                        84,
+                        500,
+                        539,
+                        537
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        84,
+                        542,
+                        538,
+                        577
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                541,
+                                538,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        541,
+                                        538,
+                                        562
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Văn phòng Chính phủ thông báo dề",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "bbox": [
+                                83,
+                                560,
+                                153,
+                                579
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        560,
+                                        153,
+                                        579
+                                    ],
+                                    "score": 0.9,
+                                    "content": "thực hiện./",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 27
+                        }
+                    ],
+                    "index": 26.5,
+                    "bbox_fs": [
+                        83,
+                        541,
+                        538,
+                        579
+                    ]
+                },
+                {
+                    "type": "title",
+                    "bbox": [
+                        90,
+                        604,
+                        142,
+                        617
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                89,
+                                601,
+                                145,
+                                619
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        601,
+                                        145,
+                                        619
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Nơi nhận",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 28
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "list",
+                    "bbox": [
+                        90,
+                        617,
+                        318,
+                        757
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                614,
+                                281,
+                                632
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        614,
+                                        281,
+                                        632
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Thủ tướng, PTTg Trần Hồng Hà (để b/",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 29,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                629,
+                                253,
+                                644
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        629,
+                                        253,
+                                        644
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Các Bộ XD, TP, QP, CA, CT,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 30,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                93,
+                                641,
+                                225,
+                                657
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        641,
+                                        225,
+                                        657
+                                    ],
+                                    "score": 0.9,
+                                    "content": "NEMT, KHẤCN, NV, NG,",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 31,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                88,
+                                654,
+                                193,
+                                669
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        654,
+                                        193,
+                                        669
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Thanh tra chính phủ;",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 32,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                666,
+                                277,
+                                682
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        666,
+                                        277,
+                                        682
+                                    ],
+                                    "score": 0.9,
+                                    "content": "UBND các thành phố: hà nội, hải",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 33,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                679,
+                                321,
+                                694
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        679,
+                                        321,
+                                        694
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Liên đoàn tương mại và công",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 34,
+                            "is_list_start_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                692,
+                                291,
+                                707
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        692,
+                                        291,
+                                        707
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Hiệp hội các nhà thầu xây dựng",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 35,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                704,
+                                273,
+                                720
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        704,
+                                        273,
+                                        720
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Hiệp hội Tư vấn Xây dựng Việt",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 36,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                717,
+                                267,
+                                732
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        717,
+                                        267,
+                                        732
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- VPCP: BTCN, PCN Nguyễn Sỹ",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 37,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                94,
+                                730,
+                                248,
+                                744
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        730,
+                                        248,
+                                        744
+                                    ],
+                                    "score": 0.9,
+                                    "content": "Các Vụ, Cục: TH, NN, PL, KSTT",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 38,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        },
+                        {
+                            "bbox": [
+                                90,
+                                741,
+                                204,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        741,
+                                        204,
+                                        758
+                                    ],
+                                    "score": 0.9,
+                                    "content": "- Lư VT, CN (2b). Hop",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 39,
+                            "is_list_start_line": true,
+                            "is_list_end_line": true
+                        }
+                    ],
+                    "index": 34,
+                    "bbox_fs": [
+                        88,
+                        614,
+                        321,
+                        758
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        322,
+                        601,
+                        514,
+                        719
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                322,
+                                601,
+                                514,
+                                719
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        601,
+                                        514,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                322,
+                                                601,
+                                                514,
+                                                719
+                                            ],
+                                            "score": 0.945,
+                                            "type": "image",
+                                            "image_path": "04c42b5a2abbdd41a5edec7b7c16375ab554cdb149087941be516f8bc086fa1b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 42.5,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        601,
+                                        514,
+                                        620.6666666666666
+                                    ],
+                                    "spans": [],
+                                    "index": 40
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        620.6666666666666,
+                                        514,
+                                        640.3333333333333
+                                    ],
+                                    "spans": [],
+                                    "index": 41
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        640.3333333333333,
+                                        514,
+                                        659.9999999999999
+                                    ],
+                                    "spans": [],
+                                    "index": 42
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        659.9999999999999,
+                                        514,
+                                        679.6666666666665
+                                    ],
+                                    "spans": [],
+                                    "index": 43
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        679.6666666666665,
+                                        514,
+                                        699.3333333333331
+                                    ],
+                                    "spans": [],
+                                    "index": 44
+                                },
+                                {
+                                    "bbox": [
+                                        322,
+                                        699.3333333333331,
+                                        514,
+                                        718.9999999999998
+                                    ],
+                                    "spans": [],
+                                    "index": 45
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42.5
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "2.2.2"
+}

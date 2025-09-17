@@ -159,16 +159,16 @@ def batch_image_analyze(
     batch_ratio = 1
     device = get_device()
 
-    if str(device).startswith('npu'):
-        try:
-            import torch_npu
-            if torch_npu.npu.is_available():
-                torch_npu.npu.set_compile_mode(jit_compile=False)
-        except Exception as e:
-            raise RuntimeError(
-                "NPU is selected as device, but torch_npu is not available. "
-                "Please ensure that the torch_npu package is installed correctly."
-            ) from e
+    # if str(device).startswith('npu'):
+    #     try:
+    #         import torch_npu
+    #         if torch_npu.npu.is_available():
+    #             torch_npu.npu.set_compile_mode(jit_compile=False)
+    #     except Exception as e:
+    #         raise RuntimeError(
+    #             "NPU is selected as device, but torch_npu is not available. "
+    #             "Please ensure that the torch_npu package is installed correctly."
+    #         ) from e
 
     if str(device).startswith('npu') or str(device).startswith('cuda'):
         vram = get_vram(device)
