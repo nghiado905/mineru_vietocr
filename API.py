@@ -8,7 +8,6 @@ import sys
 from loguru import logger
 import pypdfium2 as pdfium
 
-# Thêm đường dẫn thư viện mineru
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from mineru.data.data_reader_writer import FileBasedDataWriter
