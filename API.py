@@ -28,7 +28,6 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 SUPPORTED_SUFFIXES = {".pdf", ".png", ".jpeg", ".jpg", ".webp", ".gif"}
 
 def convert_to_pdf_bytes(file_bytes, suffix):
-    """Chuyển đổi file bytes thành PDF bytes."""
     if suffix in {".png", ".jpeg", ".jpg", ".webp", ".gif"}:
         return images_bytes_to_pdf_bytes(file_bytes)
     elif suffix == ".pdf":
@@ -37,7 +36,6 @@ def convert_to_pdf_bytes(file_bytes, suffix):
         raise ValueError(f"Unsupported file type: {suffix}")
 
 def prepare_output_dirs(base_dir, filename, method="auto"):
-    """Chuẩn bị thư mục output."""
     stem = Path(filename).stem
     output_dir = os.path.join(base_dir, stem, method)
     image_dir = os.path.join(output_dir, "images")
@@ -46,28 +44,23 @@ def prepare_output_dirs(base_dir, filename, method="auto"):
     return image_dir, output_dir
 
 def process_pdf_document(pdf_bytes, filename):
-    """Xử lý tài liệu PDF và tạo output."""
     pdf_doc = pdfium.PdfDocument(pdf_bytes)
     output_files = {}
 
-    # Chuẩn bị thư mục và writer
     image_dir, output_dir = prepare_output_dirs(app.config['UPLOAD_FOLDER'], filename)
     image_writer = FileBasedDataWriter(image_dir)
     md_writer = FileBasedDataWriter(output_dir)
 
-    # Phân tích tài liệu
     infer_results, images_list, pdf_doc_obj, lang, ocr_enabled = doc_analyze(
         [pdf_bytes], ["ch"], parse_method="auto", formula_enable=True, table_enable=True
     )
 
-    # Xử lý kết quả
     model_json = infer_results[0]
     middle_json = result_to_middle_json(
         model_json, images_list[0], pdf_doc_obj[0], image_writer, lang[0], ocr_enabled[0], True
     )
     pdf_info = middle_json["pdf_info"]
 
-    # Tạo các output file
     stem = Path(filename).stem
     if draw_layout_bbox(pdf_info, pdf_bytes, output_dir, f"{stem}_layout.pdf"):
         output_files["layout_pdf"] = os.path.relpath(os.path.join(output_dir, f"{stem}_layout.pdf"), app.config['UPLOAD_FOLDER'])
@@ -78,7 +71,6 @@ def process_pdf_document(pdf_bytes, filename):
     md_writer.write(os.path.join(output_dir, f"{stem}_origin.pdf"), pdf_bytes)
     output_files["original_pdf"] = os.path.relpath(os.path.join(output_dir, f"{stem}_origin.pdf"), app.config['UPLOAD_FOLDER'])
 
-    # Tạo nội dung JSON
     image_base = os.path.basename(image_dir)
     markdown = union_make(pdf_info, MakeMode.MM_MD, image_base)
     content_list = union_make(pdf_info, MakeMode.CONTENT_LIST, image_base)
@@ -91,7 +83,6 @@ def process_pdf_document(pdf_bytes, filename):
     with open(os.path.join(output_dir, f"{stem}_model.json"), "w", encoding="utf-8") as f:
         json.dump(model_json, f, ensure_ascii=False, indent=4)
 
-    # Chuẩn bị dữ liệu trả về (parse markdown thành JSON nếu hợp lệ)
     try:
         output_files["markdown"] = json.loads(markdown) if markdown and markdown.strip() else {}
     except json.JSONDecodeError:
