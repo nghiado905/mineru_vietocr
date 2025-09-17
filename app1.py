@@ -19,15 +19,12 @@ from mineru.backend.pipeline.pipeline_middle_json_mkcontent import union_make
 from mineru.backend.pipeline.model_json_to_middle_json import result_to_middle_json
 from mineru.backend.pipeline.pipeline_analyze import doc_analyze
 
-# Khởi tạo Flask app
 app = Flask(__name__)
 
-# Cấu hình
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50MB
 app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(__file__), 'uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Định nghĩa các đuôi file hỗ trợ
 SUPPORTED_SUFFIXES = {".pdf", ".png", ".jpeg", ".jpg", ".webp", ".gif"}
 
 def convert_to_pdf_bytes(file_bytes, suffix):

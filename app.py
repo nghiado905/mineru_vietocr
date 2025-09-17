@@ -275,7 +275,6 @@ def download_file(rel_path):
         if not os.path.exists(full_path):
             abort(404, description="File not found")
         
-        # Kiểm tra bảo mật
         if not os.path.abspath(full_path).startswith(os.path.abspath(output_dir)):
             abort(403, description="Access denied")
         
