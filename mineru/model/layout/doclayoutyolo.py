@@ -96,24 +96,22 @@ class DocLayoutYOLOModel:
             xmin, ymin, xmax, ymax = poly[0], poly[1], poly[4], poly[5]
             print(
                 f"Detected box: {xmin}, {ymin}, {xmax}, {ymax}, Category ID: {res['category_id']}, Score: {res['score']}")
-            # 使用PIL在图像上画框
             draw.rectangle([xmin, ymin, xmax, ymax], outline="red", width=2)
-            # 在框旁边画置信度
             draw.text((xmax + 10, ymin + 10), f"{res['score']:.2f}", fill="red", font_size=22)
         return image
 
 
-if __name__ == '__main__':
-    image_path = r"C:\Users\zhaoxiaomeng\Downloads\下载1.jpg"
-    doclayout_yolo_weights = os.path.join(auto_download_and_get_model_root_path(ModelPath.doclayout_yolo), ModelPath.doclayout_yolo)
-    device = 'cuda'
-    model = DocLayoutYOLOModel(
-        weight=doclayout_yolo_weights,
-        device=device,
-    )
-    image = Image.open(image_path)
-    results = model.predict(image)
+# if __name__ == '__main__':
+#     image_path = r"C:\Users\zhaoxiaomeng\Downloads\下载1.jpg"
+#     doclayout_yolo_weights = os.path.join(auto_download_and_get_model_root_path(ModelPath.doclayout_yolo), ModelPath.doclayout_yolo)
+#     device = 'cuda'
+#     model = DocLayoutYOLOModel(
+#         weight=doclayout_yolo_weights,
+#         device=device,
+#     )
+#     image = Image.open(image_path)
+#     results = model.predict(image)
 
-    image = model.visualize(image, results)
+#     image = model.visualize(image, results)
 
-    image.show()  # 显示图像
+#     image.show()  # 显示图像

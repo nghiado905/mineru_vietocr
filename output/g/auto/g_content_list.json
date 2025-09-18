@@ -1,0 +1,562 @@
+[
+    {
+        "type": "text",
+        "text": "Số 70/KH-UBND ",
+        "bbox": [
+            177,
+            122,
+            382,
+            141
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cần Thơ, ngày 15 tháng 9 năm 2025 ",
+        "bbox": [
+            484,
+            122,
+            847,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "KẾ HOẠCH Thực hiện công tác dân vận và đã thành phố Cần Thơ từ nay đến ",
+        "text_level": 1,
+        "bbox": [
+            223,
+            160,
+            827,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Thực hiện Luật Thực hiện dân d Luật sửa đổi, bổ sung một số đó Công đoàn, Luật Thanh niên và năm 2025 và Chỉ thị số 33/CT Chính phủ về tiếp tục tăng cườn chính nhà nước, chính quyền cácác ",
+        "bbox": [
+            144,
+            244,
+            909,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ủy ban nhân dân thành phố Cần Thơ Hội dân vận và dân chủ ở cơ sở trên đó 2025, cụ thể như sau: ",
+        "bbox": [
+            145,
+            366,
+            909,
+            426
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "I. MỤC ĐÍCH, YÊU CẦU ",
+        "text_level": 1,
+        "bbox": [
+            206,
+            431,
+            469,
+            453
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Mục đích ",
+        "text_level": 1,
+        "bbox": [
+            206,
+            461,
+            327,
+            479
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "- a) Đổi mới, nâng cao hiệu quả công chính nhà nước, chính quyền các trương, đường lối của Đảng, hiện tốt Luật Thực hiện dân ch Luật Mặt trận Tổ quốc Việt Nam hiện dân chủ ở cơ sở; Chỉ thị số xã nhận thức, hành động về công tác có thống chính trị; ",
+        "bbox": [
+            145,
+            485,
+            914,
+            639
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "b) Phát huy vai trò của Nhân dân quyền trong sạch, vững mạnh; phát yêu nước hướng tới Đại hội Đầu biểu toàn quốc lần thứ XIV của Đầu Bộ Chính trị về đẩy mạnh học tập và l Chí Minh ",
+        "bbox": [
+            147,
+            644,
+            916,
+            760
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Yêu cầu ",
+        "text_level": 1,
+        "bbox": [
+            209,
+            766,
+            317,
+            788
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a) Xác định rõ vai trò, trách nhiện quan, tổ chức, đội ngũ cán bộ, cổ thực hiện dân chủ góp phần có - nước; xây dựng, nhân rộng c sở, tạo sự đồng thuận và tham gia Nhân dân đối với Đảng, Nhà nước ",
+        "bbox": [
+            151,
+            789,
+            917,
+            907
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "B) Triển khai thực hiện phải đồng đơn vị, địa phương; thường xuyên đảm bảo thực hiện nghiêm túc, công điều kiện cụ thể của từng cơn ",
+        "bbox": [
+            142,
+            70,
+            910,
+            148
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "C) Việc thực hiện công tác dân vận đạo, chỉ đạo của cấp ủy đảng, ch đảm bảo có sự kế thừa kết quả ông ",
+        "bbox": [
+            144,
+            155,
+            909,
+            214
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "II. NỘI DUNG ",
+        "text_level": 1,
+        "bbox": [
+            205,
+            221,
+            357,
+            241
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1. Tăng cường sự lãnh đạo của cấp vận chính quyền, thực hiện ",
+        "bbox": [
+            141,
+            243,
+            909,
+            285
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) cấp ủy, chính quyền, cơ quan nam khai thực hiện có hiệu quả các ngac tác có liên quan, bảo đảm chính suốt, phục vụ người dân và doan xã kinh tế - xã hội, tổ chức tốt đại hê ",
+        "bbox": [
+            146,
+            288,
+            914,
+            387
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6 b) Tiếp tục quán triệt, triển khai t chính sách, pháp luật của Nhà nội tình hình mới gắn với nhiệm vụ THẦN NGHỊ QUYẾT SỐ 25-NQ/TW Trung ương Đảng về tăng cường tác dân vận trong tình hình minh 2015 của Ban Bí thư về nâng cao các cấp; Quyết định số 23-QĐ về việc ban hành Quy chế công 33/CT-TTg; Luật Thực hiện dân của Luật Mặt trận Tổ quốc Việt Thực hiện dân chủ ở cơ sở; người năm 2024 của Hội đồng nhân dân đảm thực hiện dân chủ ở cơ sở trị vị, địa phương xây dựng kế hoa vận khéo? năm 2025 theo hướng cu thể: ",
+        "bbox": [
+            147,
+            392,
+            915,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cơ quan thực hiện: Các cơ quan, đơn ",
+        "bbox": [
+            211,
+            725,
+            715,
+            745
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Thời gian thực hiện: Thường ",
+        "bbox": [
+            213,
+            752,
+            557,
+            772
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Ban hành văn bản phân công viên chức tham mưu thực hiện đơn vị, địa phương sau sắp xếp phù ",
+        "bbox": [
+            156,
+            777,
+            922,
+            835
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Cơ quan thực hiện: Các cơ quan, đơn b) Thời gian thực hiện: Hoàn thành ",
+        "bbox": [
+            213,
+            841,
+            742,
+            862
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            191,
+            70,
+            867,
+            91
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. Rà soát lại các văn bản của Đáo tỉnh hậu giang và tỉnh sóc Trăng cơ sở để điều chỉnh thay thế triển quan, đơn vị, địa phương sau sắp ",
+        "bbox": [
+            141,
+            96,
+            912,
+            175
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) Cơ quan chủ trì: sở nội vụ; b) cơ quan phối hợp: các cơ đư c) Thời gian thực hiện: Hoàn thành tr ",
+        "bbox": [
+            201,
+            181,
+            870,
+            254
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4. Tiếp tục triển khai thực hiện thắng Nghị quyết Đại hội Đảng các cấp mạnh các phong trào thi đua y 2025 - 2030 và Đại hội đại biểu triển kinh tế - xã hội 5 năm (2021 năm 2025. Thực hiện tốt các chính chính sách, đồng bào các dân tộc xa, góp phần nâng cao đời sống ",
+        "bbox": [
+            144,
+            258,
+            914,
+            413
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "- a) Cơ quan chủ trì: Sở Dân tộng   \n6 b) Cơ quan phối hợp: sở Nội vụ, các   \nC) Thời gian thực hiện: Thường ",
+        "bbox": [
+            201,
+            419,
+            838,
+            493
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "5. Nâng cao hiệu quả công tác tiến xã công tác dân vận, thực hiện dân chu kịp thời những kiến nghị, nguyện đúng quy định pháp luật; tăng đôn đốc, hướng dẫn việc triển khai chủ ở cơ sở, cụ thể: ",
+        "bbox": [
+            146,
+            495,
+            917,
+            614
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) a) Cơ quan chủ trì: Thanh tra thành phố   \n6 b) Cơ quan phối hợp: Sở Nội vụ, các   \n- chạc) Thời gian thực hiện: thườ ",
+        "bbox": [
+            206,
+            618,
+            840,
+            693
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6. Thường xuyên giáo dục chính vai trò gương mẫu của cán bộ, có, dựng và thực hiện tốt văn hóa công dân, nhất là cán bộ, công chức, viên dân; tăng cường kỷ luật, kỷ cuốc thanh tra công vụ, xử lý nghiên pháp luật, có hành vi cửa quyền lợi ích chính đáng của Nhân dân kiến thức pháp luật về công tác dâ tượng được giao theo dõi, phụ trá ",
+        "bbox": [
+            151,
+            697,
+            921,
+            889
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) cơ quan chủ trì: sở nội vụ; ",
+        "bbox": [
+            213,
+            895,
+            504,
+            916
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4 ",
+        "bbox": [
+            515,
+            54,
+            531,
+            67
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "16 b) Cơ quan phối hợp: Các cơ quan, định ",
+        "bbox": [
+            201,
+            71,
+            719,
+            92
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Z. Tổ chức triển khai thực hi hành chính nhà nước giai đoạn 15 tháng 7 năm 2021 của Chính phủ 7 năm 2025 của Uy ban nhân dân chính năm 2025, cụ thể: ",
+        "bbox": [
+            140,
+            97,
+            907,
+            195
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a) Cơ quan chủ trì: sở nội vụ; ",
+        "bbox": [
+            203,
+            200,
+            493,
+            222
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B) Cơ quan phối hợp: Các cơ quan, ",
+        "bbox": [
+            201,
+            225,
+            728,
+            247
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "C) Thời gian thực hiện: Năm 2 ",
+        "bbox": [
+            203,
+            254,
+            531,
+            274
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8. Chủ động phối hợp, tạo điều kiên các cấp thực hiện tốt công tác tuyết thuận trong việc thực hiện các chủ phản biện xã hội, góp ý xây dựng chỉ ",
+        "bbox": [
+            145,
+            277,
+            906,
+            356
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Xã a) Cơ quan thực hiện: Các cơ quan, ông Có b) Thời gian thực hiện: Thường ",
+        "bbox": [
+            201,
+            362,
+            731,
+            410
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "III. KINH PHÍ THỰC HIỆN ",
+        "text_level": 1,
+        "bbox": [
+            206,
+            413,
+            500,
+            435
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1. Kinh phí thực hiện kế hoạch nam nước theo phân cấp ngân sách họchọ nguồn khác theo quy định ",
+        "bbox": [
+            145,
+            439,
+            912,
+            499
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Các cơ quan, đơn vị, địa phương hiện nhiệm vụ cụ thể quy định trị ngân sách nhà nước, báo cáo cơ quy pháp luật hiện hành ",
+        "bbox": [
+            145,
+            505,
+            914,
+            583
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "IV. TỔ CHỨC THỰC HIỆN ",
+        "text_level": 1,
+        "bbox": [
+            209,
+            588,
+            498,
+            609
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1. Các sở, ban ngành thành phố nghiệp nhà nước đóng trên địa bản cứ chức năng, nhiệm vụ được hiện nghiêm túc Luật Thực điều của Luật Mặt trận Tổ quốc Luật Thực hiện dân chủ ở cơ sở Căn cứ tình hình thực tế của cơ hiện công tác dân vận và dân chính cáo kết quả thực hiện gửi về Sở ",
+        "bbox": [
+            147,
+            613,
+            916,
+            787
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Sở Tài chính phối hợp các cơ có đối khả năng ngân sách của thành phố trí kinh phí thực hiện kế hoạch thế ",
+        "bbox": [
+            151,
+            793,
+            917,
+            851
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. Sở Nội vụ theo dõi, giám sát, khác công tác dân vận và dân chủ ở có và nhân dân thành phố theo quyền ",
+        "bbox": [
+            152,
+            854,
+            917,
+            916
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4. Đề nghi ủy ban mặt trận Th Nội vu và các sở, ngành, địa ",
+        "bbox": [
+            139,
+            70,
+            909,
+            110
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Trên đây là Kế hoạch thực hiện củai địa bàn thành phố Cần Thơ từ n nếu có khó khẳn, vướng mắc, các Nội vụ tham mưu Uy ban nhân ",
+        "bbox": [
+            141,
+            116,
+            912,
+            193
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Nơi nhận: ",
+        "text_level": 1,
+        "bbox": [
+            152,
+            212,
+            242,
+            227
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "- Bộ Nội v   \n- TT.TU, TT.HĐNDTP;   \nCT, các pct ubndtp   \nUBMTTQVNTP   \n- Ban TG&DVTU;   \nSở, Sở, ban ngành thành phố;   \n- Đơn vị sự nghiệp thành phố   \n- Cơ quan, đơn vị TW trên định - UBND xã, phường;   \n- Cổng TTĐTTP;   \n- VP UBNDTP (2,3);   \n- Lưu: VT (VDuần). 8. ",
+        "bbox": [
+            152,
+            229,
+            443,
+            411
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/74b39bff0c508f6cc6bf380a92f134cbb7003efef2420fd41cb47c24aa73e61e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            527,
+            203,
+            949,
+            360
+        ],
+        "page_idx": 4
+    }
+]

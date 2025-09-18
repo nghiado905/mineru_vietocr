@@ -140,15 +140,15 @@ class RapidTableModel():
                 if result:
                     not_none_table_res_list[i]['table_res']['html'] = result
 
-if __name__ == '__main__':
-    ocr_engine= PytorchPaddleOCR(
-            det_db_box_thresh=0.5,
-            det_db_unclip_ratio=1.6,
-            enable_merge_det_boxes=False,
-    )
-    table_model = RapidTableModel(ocr_engine)
-    img_path = Path(r"D:\project\20240729ocrtest\pythonProject\images\601c939cc6dabaf07af763e2f935f54896d0251f37cc47beb7fc6b069353455d.jpg")
-    image = cv2.imread(str(img_path))
-    html_code, table_cell_bboxes, logic_points, elapse = table_model.predict(image)
-    print(html_code)
+# if __name__ == '__main__':
+#     ocr_engine= PytorchPaddleOCR(
+#             det_db_box_thresh=0.5,
+#             det_db_unclip_ratio=1.6,
+#             enable_merge_det_boxes=False,
+#     )
+#     table_model = RapidTableModel(ocr_engine)
+#     img_path = Path(r"D:\project\20240729ocrtest\pythonProject\images\601c939cc6dabaf07af763e2f935f54896d0251f37cc47beb7fc6b069353455d.jpg")
+#     image = cv2.imread(str(img_path))
+#     html_code, table_cell_bboxes, logic_points, elapse = table_model.predict(image)
+#     print(html_code)
 

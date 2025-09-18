@@ -88,11 +88,8 @@ class WiredTableRecognition:
                     time.perf_counter() - s,
                 )
             cell_box_det_map, not_match_orc_boxes = match_ocr_cell(ocr_result, polygons)
-            # 如果有识别框没有ocr结果，直接进行rec补充
             cell_box_det_map = self.fill_blank_rec(img, polygons, cell_box_det_map)
-            # 转换为中间格式，修正识别框坐标,将物理识别框，逻辑识别框，ocr识别框整合为dict，方便后续处理
             t_rec_ocr_list = self.transform_res(cell_box_det_map, polygons, logi_points)
-            # 将每个单元格中的ocr识别结果排序和同行合并，输出的html能完整保留文字的换行格式
             t_rec_ocr_list = self.sort_and_gather_ocr_res(t_rec_ocr_list)
 
             logi_points = [t_box_ocr["t_logic_box"] for t_box_ocr in t_rec_ocr_list]

@@ -86,9 +86,9 @@ def process_pdf_document(pdf_bytes, filename):
         output_files["markdown"] = json.loads(markdown) if markdown and markdown.strip() else {}
     except json.JSONDecodeError:
         output_files["markdown"] = {"error": "Markdown content is not valid JSON"}
-    output_files["content_list"] = content_list
+    # output_files["content_list"] = content_list
     output_files["middle_json"] = middle_json
-    output_files["model_output"] = model_json
+    # output_files["model_output"] = model_json
 
     pdf_doc.close()
     return output_files
