@@ -215,3 +215,21 @@ def process_pipeline(
 # )
 #     except Exception as e:
 #         logger.exception(e)
+
+
+def convert_to_pdf_bytes(file_bytes, suffix):
+    if suffix in {".png", ".jpeg", ".jpg", ".webp", ".gif"}:
+        return images_bytes_to_pdf_bytes(file_bytes)
+    elif suffix == ".pdf":
+        return file_bytes
+    else:
+        raise ValueError(f"Unsupported file type: {suffix}")
+
+def prepare_output_dirs(base_dir, filename, method="auto"):
+    stem = Path(filename).stem
+    output_dir = os.path.join(base_dir, stem, method)
+    image_dir = os.path.join(output_dir, "images")
+    os.makedirs(image_dir, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
+    return image_dir, output_dir
+

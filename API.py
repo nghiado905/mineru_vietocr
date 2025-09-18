@@ -17,6 +17,7 @@ from mineru.utils.pdf_image_tools import images_bytes_to_pdf_bytes
 from mineru.backend.pipeline.pipeline_middle_json_mkcontent import union_make
 from mineru.backend.pipeline.model_json_to_middle_json import result_to_middle_json
 from mineru.backend.pipeline.pipeline_analyze import doc_analyze
+from mineru.cli.common import *
 
 app = Flask(__name__)
 
@@ -26,22 +27,6 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 SUPPORTED_SUFFIXES = {".pdf", ".png", ".jpeg", ".jpg", ".webp", ".gif"}
 
-def convert_to_pdf_bytes(file_bytes, suffix):
-    if suffix in {".png", ".jpeg", ".jpg", ".webp", ".gif"}:
-        return images_bytes_to_pdf_bytes(file_bytes)
-    elif suffix == ".pdf":
-        return file_bytes
-    else:
-        raise ValueError(f"Unsupported file type: {suffix}")
-
-def prepare_output_dirs(base_dir, filename, method="auto"):
-    stem = Path(filename).stem
-    output_dir = os.path.join(base_dir, stem, method)
-    image_dir = os.path.join(output_dir, "images")
-    os.makedirs(image_dir, exist_ok=True)
-    os.makedirs(output_dir, exist_ok=True)
-    return image_dir, output_dir
-
 def process_pdf_document(pdf_bytes, filename):
     pdf_doc = pdfium.PdfDocument(pdf_bytes)
     output_files = {}
@@ -50,12 +35,12 @@ def process_pdf_document(pdf_bytes, filename):
     image_writer = FileBasedDataWriter(image_dir)
     md_writer = FileBasedDataWriter(output_dir)
 
-    infer_results, images_list, pdf_doc_obj, lang, ocr_enabled = doc_analyze(
+    infer_results, images_list, pdf_doc_obj, lang, ocr_enabled = pipeline_doc_analyze(
         [pdf_bytes], ["ch"], parse_method="auto", formula_enable=True, table_enable=True
     )
 
     model_json = infer_results[0]
-    middle_json = result_to_middle_json(
+    middle_json = pipeline_result_to_middle_json(
         model_json, images_list[0], pdf_doc_obj[0], image_writer, lang[0], ocr_enabled[0], True
     )
     pdf_info = middle_json["pdf_info"]
@@ -71,8 +56,8 @@ def process_pdf_document(pdf_bytes, filename):
     output_files["original_pdf"] = os.path.relpath(os.path.join(output_dir, f"{stem}_origin.pdf"), app.config['UPLOAD_FOLDER'])
 
     image_base = os.path.basename(image_dir)
-    markdown = union_make(pdf_info, MakeMode.MM_MD, image_base)
-    content_list = union_make(pdf_info, MakeMode.CONTENT_LIST, image_base)
+    markdown = pipeline_union_make(pdf_info, MakeMode.MM_MD, image_base)
+    content_list = pipeline_union_make(pdf_info, MakeMode.CONTENT_LIST, image_base)
     with open(os.path.join(output_dir, f"{stem}.md"), "w", encoding="utf-8") as f:
         f.write(markdown)
     with open(os.path.join(output_dir, f"{stem}_content_list.json"), "w", encoding="utf-8") as f:
@@ -134,7 +119,6 @@ def process_pdf():
 
 @app.route('/download/<path:filename>', methods=['GET'])
 def download_file(filename):
-    """Tải file từ thư mục output."""
     try:
         full_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         if not os.path.exists(full_path):
