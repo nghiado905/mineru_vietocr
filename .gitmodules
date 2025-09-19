@@ -1,0 +1,3 @@
+[submodule "vietocr"]
+	path = vietocr
+	url = https://github.com/pbcquoc/vietocr
