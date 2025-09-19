@@ -75,6 +75,12 @@ pip install -r requirements.txt
    cd mineru_vietocr
    ```
 
+2. **Install dependencies**:
+    ```bash
+    conda create -n <environment name> python=3.10
+    pip install -r requirements.txt
+    ```
+
 2. **Download required models** (models will be downloaded automatically on first use):
    - Layout detection models
    - OCR models
