@@ -55,7 +55,7 @@ mineru_vietocr/
 ## 🛠️ Installation
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.10+
 - CUDA-capable GPU (recommended for better performance)
 - 8GB+ RAM (16GB+ recommended)
 
@@ -64,46 +64,18 @@ mineru_vietocr/
 The project requires several key dependencies:
 
 ```bash
-# Core dependencies
-pip install flask
-pip install pypdfium2
-pip install loguru
-pip install pillow
-pip install opencv-python
-pip install numpy
-pip install torch
-pip install torchvision
-
-# MinerU dependencies
-pip install transformers
-pip install ultralytics
-pip install paddlepaddle
-pip install paddleocr
-
-# VietOCR dependencies
-pip install einops>=0.2.0
-pip install gdown>=4.4.0
-pip install albumentations>=1.4.2
-pip install lmdb>=1.0.0
-pip install scikit-image>=0.21.0
+pip install -r requirements.txt
 ```
 
 ### Setup
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nghiado905/mineru_vietocr
    cd mineru_vietocr
    ```
 
-2. **Install VietOCR**:
-   ```bash
-   cd vietocr
-   pip install -e .
-   cd ..
-   ```
-
-3. **Download required models** (models will be downloaded automatically on first use):
+2. **Download required models** (models will be downloaded automatically on first use):
    - Layout detection models
    - OCR models
    - Formula recognition models
@@ -136,22 +108,6 @@ curl -X POST -F "file=@document.pdf" http://localhost:8000/process_pdf/
 #### Download Processed Files
 ```bash
 curl -O http://localhost:8000/download/path/to/processed/file.pdf
-```
-
-### Command Line Interface
-
-#### Using MinerU CLI
-```bash
-python -m mineru.cli.client -p input.pdf -o output_dir --method auto
-```
-
-#### Using VietOCR
-```bash
-# Training
-python vietocr/vietocr/train.py --config config.yml
-
-# Prediction
-python vietocr/vietocr/predict.py --img image.png --config config.yml
 ```
 
 ## 🔧 Configuration
