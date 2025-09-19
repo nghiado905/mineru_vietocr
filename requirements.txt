@@ -1,0 +1,4 @@
+Flask
+gdown==5.2.0
+mineru[core]==2.5.0
+vietocr @ git+https://github.com/hungtrieu07/vietocr

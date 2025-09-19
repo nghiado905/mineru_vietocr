@@ -2,6 +2,6 @@ cropped_data
 output
 __pycache__
 */__pycache__
+*/*/__pycache__
+*/*/*/__pycache__
 .vscode
-vietocr/downloaded_models
-vietocr/config
